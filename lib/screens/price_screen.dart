@@ -53,7 +53,8 @@ class _PriceScreenState extends State<PriceScreen> {
     return CupertinoPicker(
         itemExtent: 32.0,
         onSelectedItemChanged: (selectedIndex) {
-          print(selectedIndex);
+          selectedCurrency = currenciesList[selectedIndex];
+          getData();
         },
         children: iosCurrency);
   }

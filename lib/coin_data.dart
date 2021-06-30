@@ -52,6 +52,3 @@ class NetworkHelper {
     return cryptoPrices;
   }
 }
-
-//TODO recheck the whole code again
-//TODO add getdata funtion in IOS dropdown
